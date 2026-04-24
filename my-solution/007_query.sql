@@ -4,4 +4,4 @@ SELECT drivers_license.id,
     person.name
 FROM drivers_license
     LEFT JOIN person ON drivers_license.id = person.license_id
-WHERE person.id IN (67318, 28819) -- found the killer
+WHERE person.id IN (67318, 28819) -- found the killer, 67318-Jeremy Bowers
